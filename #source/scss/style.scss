@@ -1,0 +1,392 @@
+@import "fonts.scss";
+@import "normalize.scss";
+@import "modules/variables.scss";
+@import "modules/custom.scss";
+@import "modules/animation.scss";
+@import "modules/header.scss";
+@import "modules/footer.scss";
+
+
+.inner-page {
+    &-bg {
+        z-index: -1000;
+        & > img {
+            position: absolute;
+            right: 0;
+            height: 75%;
+            @media (max-width:1920px) {
+                height: 75%;
+            }
+            @media (max-width:991px) {
+                height: 50%;
+            }
+        }
+    }
+}
+
+// Стили хлебных крошек
+.breadcrumbs {
+    &__item {
+
+    }
+    &__link {
+
+    }
+    &__divider {
+
+    }
+
+    &__prev {
+        color: var(--black, #232424);
+        leading-trim: both;
+        text-edge: cap;
+        font-family: 'Nunito';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+        opacity: 0.6;
+
+        @media (max-width:991px) {
+            font-size: 14px;
+        }
+        @media (max-width:390px) {
+            font-size: 12px;
+        }
+    }
+    &__current {
+        color: var(--black, #232424);
+        leading-trim: both;
+        text-edge: cap;
+        font-family: 'Nunito';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+        opacity: 0.6;
+
+        @media (max-width:991px) {
+            font-size: 14px;
+        }
+        @media (max-width:390px) {
+            font-size: 12px;
+        }
+    }
+}
+.breadcrumb {
+    gap: 6px;
+    margin: 40px 0 80px 0;
+
+    @media (max-width:1279px) {
+        margin: 30px 0 60px 0;
+    }
+
+    @media (max-width:991px) {
+        margin: 30px 0 50px 0;
+    }
+    @media (max-width:390px) {
+        margin: 20px 0 40px 0;
+    }
+}
+
+// .row {
+//     --bs-gutter-x: 30px;
+//     @media (max-width:1920px) {
+//         --bs-gutter-x: 36px;
+//     }
+//     @media (max-width:1660px) {
+//         --bs-gutter-x: 34px;
+//     }
+//     @media (max-width:1440px) {
+//         --bs-gutter-x: 36px;
+//     }
+//     @media (max-width:1240px) {
+//         --bs-gutter-x: 36px;
+//     }
+//     @media (max-width:991px) {
+//         --bs-gutter-x: 30px;
+//     }
+//     @media (max-width:767px) {
+//         --bs-gutter-x: 25px;
+//     }
+//     @media (max-width:567px) {
+//         --bs-gutter-x: 20px;
+//     }
+//     @media (max-width:467px) {
+//         --bs-gutter-x: 25px;
+//     }
+//     @media (max-width:467px) {
+//         --bs-gutter-x: 24px;
+//     }
+
+// }
+
+
+
+
+
+// общие стили
+
+.section {
+
+    &__title {
+        margin-bottom: 80px;
+
+        color: var(--black, #232424);
+        leading-trim: both;
+        text-edge: cap;
+        font-family: 'Nunito';
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        @media (max-width:991px) {
+            font-size: 36px;
+            margin-bottom: 60px;
+        }
+        @media (max-width:767px) {
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+
+
+// specialist-list страница
+
+.specialist-list {
+    
+    &__container {
+        margin-bottom: 220px;
+        @media (max-width:991px) {
+            margin-bottom: 180px;
+        }
+        @media (max-width:767px) {
+            margin-bottom: 120px;
+        }
+    }
+
+    &__row {
+
+        row-gap: 15px;
+
+        @media (max-width:1860px) {
+            justify-content: center;
+        }
+    }
+    
+}
+
+.specialist {
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+
+        @media (max-width:1860px) {
+            width: fit-content;
+        }
+
+        @media (max-width:991px) {
+            width: 50%;
+        }
+        @media (max-width:767px) {
+            width: 33%;
+        }
+        @media (max-width:567px) {
+            width: fit-content;
+        }
+    }
+
+    &__img {
+        width: 396px;
+        height: 440px;
+        
+        @media (max-width:1660px) {
+            width: 322px;
+            height: 350px;
+        }
+
+        @media (max-width:991px) {
+            width: 322px;
+            height: 350px;
+        }
+        @media (max-width:767px) {
+            width: 165px;
+            height: 183px;
+        }
+
+        & > img {
+            width: 100%;
+            height: 100%;
+            border-radius: 30px;
+        }
+    }
+
+    &__name {
+        color: var(--black, #232424);
+        leading-trim: both;
+        text-edge: cap;
+        font-family: 'Nunito';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+        margin-bottom: 6px;
+        margin-top: 9px;
+
+        max-width: 322px;
+
+
+        @media (max-width:1920px) {
+            
+        }
+
+        @media (max-width:1660px) {
+            
+        }
+
+        @media (max-width:1440px) {
+            
+        }
+
+        @media (max-width:1280px) {
+            
+        }
+        @media (max-width:991px) {
+            font-size: 20px;
+        }
+
+        @media (max-width:767px) {
+            font-size: 14px;
+        }
+
+        @media (max-width:567px) {
+            max-width: 165px;
+            
+        }
+
+        @media (max-width:467px) {
+            
+        }
+
+        @media (max-width:390px) {
+            
+        }
+    }
+    &__spec {
+        color: var(--black, #232424);
+        leading-trim: both;
+        text-edge: cap;
+        font-family: 'Nunito';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+        max-width: 322px;
+
+        opacity: .8;
+
+        @media (max-width:1920px) {
+            
+        }
+
+        @media (max-width:1660px) {
+            
+        }
+
+        @media (max-width:1440px) {
+            
+        }
+
+        @media (max-width:1280px) {
+            
+        }
+
+        @media (max-width:991px) {
+            font-size: 18px;
+        }
+
+        @media (max-width:767px) {
+            font-size: 12px;
+        }
+
+        @media (max-width:567px) {
+            max-width: 165px;
+        }
+
+        @media (max-width:467px) {
+            
+        }
+
+        @media (max-width:390px) {
+            
+        }
+        
+    }
+}
+
+// news-list страница
+
+.news-list {
+    &__container {
+
+    }
+    &__row {
+        margin-bottom: 220px;
+        row-gap: 30px;
+    }
+    &__title {
+        padding-left: 20px;
+        padding-right: 20px;
+        position: absolute;
+        bottom: 0;
+
+        color: var(--white, #FCFCFC);
+        leading-trim: both;
+        text-edge: cap;
+        font-family: 'Nunito';
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+        @media (max-width:1660px) {
+            font-size: 22px;
+        }
+        @media (max-width:767px) {
+            font-size: 16px;
+        }
+    }
+    
+}
+
+.news {
+    &__card {
+        position: relative;
+        
+        @media (max-width:1920px) {
+            width: 33%;
+        }
+        @media (max-width:1199px) {
+            width: 50%;
+        }
+        @media (max-width:767px) {
+            width: 50%;
+        }
+        @media (max-width:567px) {
+            width: 100%;
+        }
+        
+        & > a > img {
+            border-radius: 20px;
+            width: 100%;
+        }
+
+    }
+}
