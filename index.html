@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <link rel="stylesheet" href="./css/fancybox.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">  
+
+</head>
+<body>
+    
+    
+
+    <header class="header white">
+        <div class="container header__container">
+
+            <div class="header__wrapper">
+
+                <a href="/" class="header__logo">
+                    <img src="./img/svg/logo-svg.svg" alt="">
+                </a>
+
+                <div class="header__nav white">
+                    <nav class="navbar navbar-expand-lg">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Меню
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="./about.html">О нас</a>
+                                    <a class="dropdown-item" href="./specialist-list.html">Специалисты</a>
+                                    <a class="dropdown-item" href="./docs.html">Нормативные документы</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./services-list.html">Услуги</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./price.html">Цены</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./special-offer.html">Скидки и акции</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./vacancies.html">Вакансии</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./reviews.html">Отзывы</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./news-list.html">Новости</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="header__tel white">
+                    <a href="">+7 (3842)-74-17-74</a>
+                </div>
+
+                <div class="header__burger" id="header-burger">
+                    <svg width="61" height="29" viewBox="0 0 61 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.1875" y="0.90625" width="60" height="4" rx="2" fill="#FCFCFC"/>
+                        <rect x="0.1875" y="12.9062" width="60" height="4" rx="2" fill="#FCFCFC"/>
+                        <rect x="0.1875" y="24.9062" width="60" height="4" rx="2" fill="#FCFCFC"/>
+                    </svg>
+                </div>
+
+            </div>
+
+            <div class="header__tel-mobile white">
+                <a href="">+7 (3842)-74-17-74</a>
+            </div>
+                
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Меню-оверлей -->
+    <div class="overlay-menu">
+        <div class="menu-content">
+            <a href="tel:+73842741774" class="overlay-menu__tel">+7 (3842)-74-17-74</a>
+            <ul>
+                <li><a href="./about.html">О нас</a></li>
+                <li><a href="./services-list.html">Услуги</a></li>
+                <li><a href="./price.html">Цены</a></li>
+                <li><a href="./specialist-list.html">Специалисты</a></li>
+                <li><a href="./special-offer.html">Скидки и акции</a></li>
+                <li><a href="./docs.html">Нормативные документы</a></li>
+                <li><a href="./vacancies.html">Вакансии</a></li>
+                <li><a href="./reviews.html">Отзывы</a></li>
+                <li><a href="./news-list.html"></a></li>
+                <!-- ... Добавьте свои пункты меню здесь ... -->
+            </ul>
+        </div>
+        
+        
+        
+
+        <a href="/" class="menu-content__logo">
+
+            <img src="./img/svg/menu-logo.svg" alt="">
+
+        </a>
+    </div>
+
+        <section class="hero">
+
+            <div class="hero-bg">
+                <!-- <img src="./img/hero/hero-bg.png" alt=""> -->
+            </div>
+
+            <div class="container hero__container">
+
+                <div class="hero__form footer__form">
+
+                    <h1>БУДЬТЕ ЗДОРОВЫ</h1>
+                    <h2>Медицинский центр для <span>всей семьи</span></h2>
+
+                    <div class="form-body">
+                        <div class="row form__row">
+                            <div class="col-md-5 form-tel">
+                              <input type="text" class="form-control" placeholder="Номер телефона">
+                            </div>
+                            <div class="col-md-6 form-fio">
+                              <input type="tel" class="form-control" placeholder="ФИО">
+                            </div>
+                          </div>
+                            <div class="form__input">
+                                <input type="text" class="form-control" placeholder="Причина обращения">
+                            </div>
+                      
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input">
+                                <label class="form-check-label white">Согласен с условиями обработки персональных данных</label>
+                            </div>
+                            <div class="col-md-6 form-btn">
+                                <button type="button" class="btn cta__button-primary" data-toggle="modal" data-target="#callModal">Записаться</button>
+                            </div>
+                            
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="hero-text">
+
+            <div class="container hero-text__container">
+
+                <div class="hero-text__wrapper">
+
+                    <div class="hero__text">
+                        <h3 class="section__title">Добро пожаловать в медицинский центр<br>«Будьте Здоровы»!</h3>
+
+                        <p class="mb-2">
+                            «Будьте Здоровы»— современное многопрофильное учреждение города Кемерово, оказывающее лечебно-профилактические, реабилитационные услуги по лечению неврологических заболеваний взрослому и детскому населению.
+                            В тесном контакте с врачами работают педагоги и реабилитологи, проводится не медикаментозная реабилитация и развивающие занятия.
+                            В «Будьте Здоровы» используется современное специализированное оборудование, позволяющее выявить нарушения в работе мозга человека и назначить эффективное и безопасное лечение.
+                            Мы уверены, что своевременная диагностика и коррекция заболеваний поможет нашим пациентам преодолеть многие трудности!
+                        </p>
+
+                        <p>
+                            «Будьте Здоровы» — забота о вашем здоровье. Современный центр прямо в центре города!
+                        </p>
+
+                    </div>
+
+                    <div class="hero-text__benefits">
+                        <ul>
+                            <li>
+                                <span>12+</span>
+                                <p>опытных специалистов</p>
+                            </li>
+                            <li>
+                                <span>100+</span>
+                                <p>общий стаж работы</p>
+                            </li>
+                            <li>
+                                <span>1000+</span>
+                                <p>здоровых и довольных пациентов</p>
+                            </li>
+                            <li>
+                                <span>300+</span>
+                                <p>квадратных метров</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="gallery">
+            <div class="container gallery__container">
+                <div class="gallery__grid">
+                    <div class="img-1 gallery__item">
+                        <a href="./img/gallery/photo-1.jpg" data-fancybox="gallery" data-caption="Image 1">
+                            <img src="./img/gallery/photo-1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="img-3 gallery__item">
+                        <a href="./img/gallery/photo-2.jpg" data-fancybox="gallery" data-caption="Image 2">
+                            <img src="./img/gallery/photo-2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="img-2 gallery__item">
+                        <a href="./img/gallery/photo-3.jpg" data-fancybox="gallery" data-caption="Image 3">
+                            <img src="./img/gallery/photo-3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="img-4 gallery__item">
+                        <a href="./img/gallery/photo-4.jpg" data-fancybox="gallery" data-caption="Image 4">
+                            <img src="./img/gallery/photo-4.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="img-5 gallery__item">
+                        <a href="./img/gallery/photo-5.jpg" data-fancybox="gallery" data-caption="Image 5">
+                            <img src="./img/gallery/photo-5.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+       
+        
+
+        <section class="service-tabs">
+            <img src="./img/hero/hero-bg-element-top.png" alt="">
+            <div class="container service-tabs__container">
+
+                <h3 class="section__title">Медицинский центр «Будьте Здоровы» оказывает широкий спектр платных медицинских услуг</h3>
+
+                <div class="service-tabs__wrapper">
+
+                    <ul class="service-tabs__list">
+                        <li>
+                            <a href="./service.html">
+                                Невролог
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                                        <path d="M0.321958 13.265C-0.0839842 13.6394 -0.109495 14.2721 0.264977 14.678C0.639449 15.084 1.2721 15.1095 1.67804 14.735L0.321958 13.265ZM15.2296 1.83553C15.2519 1.2837 14.8225 0.818305 14.2707 0.796052L5.27801 0.43343C4.72618 0.411177 4.26079 0.84049 4.23853 1.39233C4.21628 1.94416 4.64559 2.40955 5.19743 2.43181L13.1909 2.75414L12.8686 10.7476C12.8463 11.2995 13.2757 11.7649 13.8275 11.7871C14.3793 11.8094 14.8447 11.3801 14.867 10.8282L15.2296 1.83553ZM1.67804 14.735L14.9085 2.53026L13.5524 1.06022L0.321958 13.265L1.67804 14.735Z" fill="#232424"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service.html">
+                                Психолог
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                                        <path d="M0.321958 13.265C-0.0839842 13.6394 -0.109495 14.2721 0.264977 14.678C0.639449 15.084 1.2721 15.1095 1.67804 14.735L0.321958 13.265ZM15.2296 1.83553C15.2519 1.2837 14.8225 0.818305 14.2707 0.796052L5.27801 0.43343C4.72618 0.411177 4.26079 0.84049 4.23853 1.39233C4.21628 1.94416 4.64559 2.40955 5.19743 2.43181L13.1909 2.75414L12.8686 10.7476C12.8463 11.2995 13.2757 11.7649 13.8275 11.7871C14.3793 11.8094 14.8447 11.3801 14.867 10.8282L15.2296 1.83553ZM1.67804 14.735L14.9085 2.53026L13.5524 1.06022L0.321958 13.265L1.67804 14.735Z" fill="#232424"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service.html">
+                                Логопед
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                                        <path d="M0.321958 13.265C-0.0839842 13.6394 -0.109495 14.2721 0.264977 14.678C0.639449 15.084 1.2721 15.1095 1.67804 14.735L0.321958 13.265ZM15.2296 1.83553C15.2519 1.2837 14.8225 0.818305 14.2707 0.796052L5.27801 0.43343C4.72618 0.411177 4.26079 0.84049 4.23853 1.39233C4.21628 1.94416 4.64559 2.40955 5.19743 2.43181L13.1909 2.75414L12.8686 10.7476C12.8463 11.2995 13.2757 11.7649 13.8275 11.7871C14.3793 11.8094 14.8447 11.3801 14.867 10.8282L15.2296 1.83553ZM1.67804 14.735L14.9085 2.53026L13.5524 1.06022L0.321958 13.265L1.67804 14.735Z" fill="#232424"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service.html">
+                                Эпилептолог
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                                        <path d="M0.321958 13.265C-0.0839842 13.6394 -0.109495 14.2721 0.264977 14.678C0.639449 15.084 1.2721 15.1095 1.67804 14.735L0.321958 13.265ZM15.2296 1.83553C15.2519 1.2837 14.8225 0.818305 14.2707 0.796052L5.27801 0.43343C4.72618 0.411177 4.26079 0.84049 4.23853 1.39233C4.21628 1.94416 4.64559 2.40955 5.19743 2.43181L13.1909 2.75414L12.8686 10.7476C12.8463 11.2995 13.2757 11.7649 13.8275 11.7871C14.3793 11.8094 14.8447 11.3801 14.867 10.8282L15.2296 1.83553ZM1.67804 14.735L14.9085 2.53026L13.5524 1.06022L0.321958 13.265L1.67804 14.735Z" fill="#232424"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service.html">
+                                Дефектолог
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                                        <path d="M0.321958 13.265C-0.0839842 13.6394 -0.109495 14.2721 0.264977 14.678C0.639449 15.084 1.2721 15.1095 1.67804 14.735L0.321958 13.265ZM15.2296 1.83553C15.2519 1.2837 14.8225 0.818305 14.2707 0.796052L5.27801 0.43343C4.72618 0.411177 4.26079 0.84049 4.23853 1.39233C4.21628 1.94416 4.64559 2.40955 5.19743 2.43181L13.1909 2.75414L12.8686 10.7476C12.8463 11.2995 13.2757 11.7649 13.8275 11.7871C14.3793 11.8094 14.8447 11.3801 14.867 10.8282L15.2296 1.83553ZM1.67804 14.735L14.9085 2.53026L13.5524 1.06022L0.321958 13.265L1.67804 14.735Z" fill="#232424"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service.html">
+                                Массаж
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                                        <path d="M0.321958 13.265C-0.0839842 13.6394 -0.109495 14.2721 0.264977 14.678C0.639449 15.084 1.2721 15.1095 1.67804 14.735L0.321958 13.265ZM15.2296 1.83553C15.2519 1.2837 14.8225 0.818305 14.2707 0.796052L5.27801 0.43343C4.72618 0.411177 4.26079 0.84049 4.23853 1.39233C4.21628 1.94416 4.64559 2.40955 5.19743 2.43181L13.1909 2.75414L12.8686 10.7476C12.8463 11.2995 13.2757 11.7649 13.8275 11.7871C14.3793 11.8094 14.8447 11.3801 14.867 10.8282L15.2296 1.83553ZM1.67804 14.735L14.9085 2.53026L13.5524 1.06022L0.321958 13.265L1.67804 14.735Z" fill="#232424"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service.html">
+                                Терапевт
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                                        <path d="M0.321958 13.265C-0.0839842 13.6394 -0.109495 14.2721 0.264977 14.678C0.639449 15.084 1.2721 15.1095 1.67804 14.735L0.321958 13.265ZM15.2296 1.83553C15.2519 1.2837 14.8225 0.818305 14.2707 0.796052L5.27801 0.43343C4.72618 0.411177 4.26079 0.84049 4.23853 1.39233C4.21628 1.94416 4.64559 2.40955 5.19743 2.43181L13.1909 2.75414L12.8686 10.7476C12.8463 11.2995 13.2757 11.7649 13.8275 11.7871C14.3793 11.8094 14.8447 11.3801 14.867 10.8282L15.2296 1.83553ZM1.67804 14.735L14.9085 2.53026L13.5524 1.06022L0.321958 13.265L1.67804 14.735Z" fill="#232424"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service.html">
+                                ЭЭГ
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                                        <path d="M0.321958 13.265C-0.0839842 13.6394 -0.109495 14.2721 0.264977 14.678C0.639449 15.084 1.2721 15.1095 1.67804 14.735L0.321958 13.265ZM15.2296 1.83553C15.2519 1.2837 14.8225 0.818305 14.2707 0.796052L5.27801 0.43343C4.72618 0.411177 4.26079 0.84049 4.23853 1.39233C4.21628 1.94416 4.64559 2.40955 5.19743 2.43181L13.1909 2.75414L12.8686 10.7476C12.8463 11.2995 13.2757 11.7649 13.8275 11.7871C14.3793 11.8094 14.8447 11.3801 14.867 10.8282L15.2296 1.83553ZM1.67804 14.735L14.9085 2.53026L13.5524 1.06022L0.321958 13.265L1.67804 14.735Z" fill="#232424"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service.html">
+                                УЗИ
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                                        <path d="M0.321958 13.265C-0.0839842 13.6394 -0.109495 14.2721 0.264977 14.678C0.639449 15.084 1.2721 15.1095 1.67804 14.735L0.321958 13.265ZM15.2296 1.83553C15.2519 1.2837 14.8225 0.818305 14.2707 0.796052L5.27801 0.43343C4.72618 0.411177 4.26079 0.84049 4.23853 1.39233C4.21628 1.94416 4.64559 2.40955 5.19743 2.43181L13.1909 2.75414L12.8686 10.7476C12.8463 11.2995 13.2757 11.7649 13.8275 11.7871C14.3793 11.8094 14.8447 11.3801 14.867 10.8282L15.2296 1.83553ZM1.67804 14.735L14.9085 2.53026L13.5524 1.06022L0.321958 13.265L1.67804 14.735Z" fill="#232424"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service.html">
+                                Гастроэнтеролог
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                                        <path d="M0.321958 13.265C-0.0839842 13.6394 -0.109495 14.2721 0.264977 14.678C0.639449 15.084 1.2721 15.1095 1.67804 14.735L0.321958 13.265ZM15.2296 1.83553C15.2519 1.2837 14.8225 0.818305 14.2707 0.796052L5.27801 0.43343C4.72618 0.411177 4.26079 0.84049 4.23853 1.39233C4.21628 1.94416 4.64559 2.40955 5.19743 2.43181L13.1909 2.75414L12.8686 10.7476C12.8463 11.2995 13.2757 11.7649 13.8275 11.7871C14.3793 11.8094 14.8447 11.3801 14.867 10.8282L15.2296 1.83553ZM1.67804 14.735L14.9085 2.53026L13.5524 1.06022L0.321958 13.265L1.67804 14.735Z" fill="#232424"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service.html">
+                                Психиатрия
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                                        <path d="M0.321958 13.265C-0.0839842 13.6394 -0.109495 14.2721 0.264977 14.678C0.639449 15.084 1.2721 15.1095 1.67804 14.735L0.321958 13.265ZM15.2296 1.83553C15.2519 1.2837 14.8225 0.818305 14.2707 0.796052L5.27801 0.43343C4.72618 0.411177 4.26079 0.84049 4.23853 1.39233C4.21628 1.94416 4.64559 2.40955 5.19743 2.43181L13.1909 2.75414L12.8686 10.7476C12.8463 11.2995 13.2757 11.7649 13.8275 11.7871C14.3793 11.8094 14.8447 11.3801 14.867 10.8282L15.2296 1.83553ZM1.67804 14.735L14.9085 2.53026L13.5524 1.06022L0.321958 13.265L1.67804 14.735Z" fill="#232424"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service.html">
+                                АВА-терапия
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                                        <path d="M0.321958 13.265C-0.0839842 13.6394 -0.109495 14.2721 0.264977 14.678C0.639449 15.084 1.2721 15.1095 1.67804 14.735L0.321958 13.265ZM15.2296 1.83553C15.2519 1.2837 14.8225 0.818305 14.2707 0.796052L5.27801 0.43343C4.72618 0.411177 4.26079 0.84049 4.23853 1.39233C4.21628 1.94416 4.64559 2.40955 5.19743 2.43181L13.1909 2.75414L12.8686 10.7476C12.8463 11.2995 13.2757 11.7649 13.8275 11.7871C14.3793 11.8094 14.8447 11.3801 14.867 10.8282L15.2296 1.83553ZM1.67804 14.735L14.9085 2.53026L13.5524 1.06022L0.321958 13.265L1.67804 14.735Z" fill="#232424"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service.html">
+                                Кардиология
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                                        <path d="M0.321958 13.265C-0.0839842 13.6394 -0.109495 14.2721 0.264977 14.678C0.639449 15.084 1.2721 15.1095 1.67804 14.735L0.321958 13.265ZM15.2296 1.83553C15.2519 1.2837 14.8225 0.818305 14.2707 0.796052L5.27801 0.43343C4.72618 0.411177 4.26079 0.84049 4.23853 1.39233C4.21628 1.94416 4.64559 2.40955 5.19743 2.43181L13.1909 2.75414L12.8686 10.7476C12.8463 11.2995 13.2757 11.7649 13.8275 11.7871C14.3793 11.8094 14.8447 11.3801 14.867 10.8282L15.2296 1.83553ZM1.67804 14.735L14.9085 2.53026L13.5524 1.06022L0.321958 13.265L1.67804 14.735Z" fill="#232424"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service.html">
+                                Физиотерапия
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                                        <path d="M0.321958 13.265C-0.0839842 13.6394 -0.109495 14.2721 0.264977 14.678C0.639449 15.084 1.2721 15.1095 1.67804 14.735L0.321958 13.265ZM15.2296 1.83553C15.2519 1.2837 14.8225 0.818305 14.2707 0.796052L5.27801 0.43343C4.72618 0.411177 4.26079 0.84049 4.23853 1.39233C4.21628 1.94416 4.64559 2.40955 5.19743 2.43181L13.1909 2.75414L12.8686 10.7476C12.8463 11.2995 13.2757 11.7649 13.8275 11.7871C14.3793 11.8094 14.8447 11.3801 14.867 10.8282L15.2296 1.83553ZM1.67804 14.735L14.9085 2.53026L13.5524 1.06022L0.321958 13.265L1.67804 14.735Z" fill="#232424"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="./service.html">
+                                Генетическое тестирования
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                                        <path d="M0.321958 13.265C-0.0839842 13.6394 -0.109495 14.2721 0.264977 14.678C0.639449 15.084 1.2721 15.1095 1.67804 14.735L0.321958 13.265ZM15.2296 1.83553C15.2519 1.2837 14.8225 0.818305 14.2707 0.796052L5.27801 0.43343C4.72618 0.411177 4.26079 0.84049 4.23853 1.39233C4.21628 1.94416 4.64559 2.40955 5.19743 2.43181L13.1909 2.75414L12.8686 10.7476C12.8463 11.2995 13.2757 11.7649 13.8275 11.7871C14.3793 11.8094 14.8447 11.3801 14.867 10.8282L15.2296 1.83553ZM1.67804 14.735L14.9085 2.53026L13.5524 1.06022L0.321958 13.265L1.67804 14.735Z" fill="#232424"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service.html">
+                                Генетика
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                                        <path d="M0.321958 13.265C-0.0839842 13.6394 -0.109495 14.2721 0.264977 14.678C0.639449 15.084 1.2721 15.1095 1.67804 14.735L0.321958 13.265ZM15.2296 1.83553C15.2519 1.2837 14.8225 0.818305 14.2707 0.796052L5.27801 0.43343C4.72618 0.411177 4.26079 0.84049 4.23853 1.39233C4.21628 1.94416 4.64559 2.40955 5.19743 2.43181L13.1909 2.75414L12.8686 10.7476C12.8463 11.2995 13.2757 11.7649 13.8275 11.7871C14.3793 11.8094 14.8447 11.3801 14.867 10.8282L15.2296 1.83553ZM1.67804 14.735L14.9085 2.53026L13.5524 1.06022L0.321958 13.265L1.67804 14.735Z" fill="#232424"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./service.html">
+                                Медицинская психология
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+                                        <path d="M0.321958 13.265C-0.0839842 13.6394 -0.109495 14.2721 0.264977 14.678C0.639449 15.084 1.2721 15.1095 1.67804 14.735L0.321958 13.265ZM15.2296 1.83553C15.2519 1.2837 14.8225 0.818305 14.2707 0.796052L5.27801 0.43343C4.72618 0.411177 4.26079 0.84049 4.23853 1.39233C4.21628 1.94416 4.64559 2.40955 5.19743 2.43181L13.1909 2.75414L12.8686 10.7476C12.8463 11.2995 13.2757 11.7649 13.8275 11.7871C14.3793 11.8094 14.8447 11.3801 14.867 10.8282L15.2296 1.83553ZM1.67804 14.735L14.9085 2.53026L13.5524 1.06022L0.321958 13.265L1.67804 14.735Z" fill="#232424"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="specialist-hero">
+
+            <div class="container specialist-hero__container">
+
+                <div class="specialist-hero__grid">
+                    <div class="specialist-hero__quote-big">
+                        <h3 class="section__title">
+                            Главная цель слаженной работы нашего коллектива — это помочь пациенту сохранить свое здоровье!
+                        </h3>
+                    </div>
+                    <div class="specialist-hero__paragraph">
+                        <p>
+                            Коллектив медицинского центра «Будьте Здоровы» — команда высококвалифицированных специалистов разного профиля, в которую включены неврологи, эпилептологи, психологи, дефектологи, логопеды, гастроэнтерологи, терапевты, специалисты по массажу и функциональной диагностике. Мы следим за тенденциями развитий новейших технологий и методик в области нейропсихологии, эпилептологии, неврологии, дефектологии. А специалисты нашего центра ежегодно повышают свой профессиональный уровень, проходя обучение в лучших заведениях страны.
+                        </p>
+                    </div>
+                    <div class="specialist-hero__img">
+                        <img src="./img/hero/specialist-hero.jpg" alt="">
+                    </div>
+                    <div class="specialist-hero__quote-small">
+                        <p>
+                            Миссия медицинского центра «Будьте здоровы» — это восстановление и сохранение здоровья наших пациентов.Мы тщательно контролируем качество и безопасность медицинской деятельности в нашем центре. В своей работе мы соблюдаем принципы доброжелательности, открытости и позитивного отношения к нашим пациентам — взрослым и детям. Клиника действует на основе платного оказания медицинской помощи, но финансовая заинтересованность не является для нас определяющей.
+                        </p>
+                    </div>
+                    <div class="specialist-hero__name">
+                        <p>
+                            Малышенко Наталья Валерьевна
+                        </p>
+                        <p>
+                            Главный врач медицинского центра 
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="specialist-slider specialist-slider__hero">
+            <div class="swiper-container specialist-slider__container container swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+
+                <!-- <h3 class="section__title">Специалисты профиля</h3> -->
+
+                <!-- Добавьте кнопки навигации -->
+                <div class="specialist-slider__buttons">
+                    <div class="specialist-slider-button-prev swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-4964f102a52c8a563" aria-disabled="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="83" height="48" viewBox="0 0 83 48" fill="none">
+                            <rect x="-0.5" y="0.5" width="82" height="47" rx="23.5" transform="matrix(-1 0 0 1 82 0)" stroke="#232424"></rect>
+                            <path d="M55 23C55.5523 23 56 23.4477 56 24C56 24.5523 55.5523 25 55 25V23ZM27.2929 24.7071C26.9024 24.3166 26.9024 23.6834 27.2929 23.2929L33.6569 16.9289C34.0474 16.5384 34.6805 16.5384 35.0711 16.9289C35.4616 17.3195 35.4616 17.9526 35.0711 18.3431L29.4142 24L35.0711 29.6569C35.4616 30.0474 35.4616 30.6805 35.0711 31.0711C34.6805 31.4616 34.0474 31.4616 33.6569 31.0711L27.2929 24.7071ZM55 25H28V23H55V25Z" fill="#232424"></path>
+                        </svg>
+                    </div>
+                    <div class="specialist-slider-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-4964f102a52c8a563" aria-disabled="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="83" height="48" viewBox="0 0 83 48" fill="none">
+                            <rect x="0.5" y="0.5" width="82" height="47" rx="23.5" stroke="#232424"></rect>
+                            <path d="M28 23C27.4477 23 27 23.4477 27 24C27 24.5523 27.4477 25 28 25V23ZM55.7071 24.7071C56.0976 24.3166 56.0976 23.6834 55.7071 23.2929L49.3431 16.9289C48.9526 16.5384 48.3195 16.5384 47.9289 16.9289C47.5384 17.3195 47.5384 17.9526 47.9289 18.3431L53.5858 24L47.9289 29.6569C47.5384 30.0474 47.5384 30.6805 47.9289 31.0711C48.3195 31.4616 48.9526 31.4616 49.3431 31.0711L55.7071 24.7071ZM28 25H55V23H28V25Z" fill="#232424"></path>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="swiper-wrapper specialist-slider__wrapper" id="swiper-wrapper-4964f102a52c8a563" aria-live="polite" style="transform: translate3d(0px, 0px, 0px);">
+        
+                    <div class="swiper-slide col-md-3 col-sm-2 specialist__card swiper-slide-active" role="group" aria-label="1 / 8" style="margin-right: 30px;">
+                        <a href="./specialist.html">
+                            <div class="specialist-list__img">
+                                <img src="./img/specialist-list/specialist-img.jpg" alt="">
+                                <div class="specialist-overlay">
+                                    <div class="specialist-overlay__link">Подробнее</div>
+                                </div>
+                            </div>
+                         </a>
+                        <a href="./specialist.html">
+                            <p class="specialist-list__name">Малышенко Наталья Валерьевна</p>
+                        </a>
+                        <p class="specialist-list__spec">
+                            Главный врач, невролог высшей квалификационной категории
+                        </p>
+                    </div>
+        
+                    <div class="swiper-slide col-md-3 col-sm-2 specialist__card swiper-slide-next" role="group" aria-label="2 / 8" style="margin-right: 30px;">
+                        <a href="./specialist.html">
+                            <div class="specialist-list__img">
+                                <img src="./img/specialist-list/specialist-img-2.jpg" alt="">
+                                <div class="specialist-overlay">
+                                    <div class="specialist-overlay__link">Подробнее</div>
+                                </div>
+                            </div>
+                         </a>
+                        <a href="./specialist.html">
+                            <p class="specialist-list__name">Речкина Татьяна Ивановна</p>
+                        </a>
+                        <p class="specialist-list__spec">
+                            Врач — невролог высшей квалификационной категории
+                        </p>
+                    </div>
+        
+                    <div class="swiper-slide col-md-3 col-sm-2 specialist__card" role="group" aria-label="3 / 8" style="margin-right: 30px;">
+                        <a href="./specialist.html">
+                            <div class="specialist-list__img">
+                                <img src="./img/specialist-list/specialist-img-3.jpg" alt="">
+                                <div class="specialist-overlay">
+                                    <div class="specialist-overlay__link">Подробнее</div>
+                                </div>
+                            </div>
+                         </a>
+                        <a href="./specialist.html">
+                            <p class="specialist-list__name">Петров Юрий Владимирович</p>
+                        </a>
+                        <p class="specialist-list__spec">
+                            Врач — эпилептолог высшей квалификационной категории
+                        </p>
+                    </div>
+
+                    <div class="swiper-slide col-md-3 col-sm-2 specialist__card" role="group" aria-label="4 / 8" style="margin-right: 30px;">
+                        <a href="./specialist.html">
+                            <div class="specialist-list__img">
+                                <img src="./img/specialist-list/specialist-img-4.jpg" alt="">
+                                <div class="specialist-overlay">
+                                    <div class="specialist-overlay__link">Подробнее</div>
+                                </div>
+                            </div>
+                         </a>
+                        <a href="./specialist.html">
+                            <p class="specialist-list__name">Блишунова Ольга Сергеевна</p>
+                        </a>
+                        <p class="specialist-list__spec">
+                            Детский невролог, эпилептолог
+                        </p>
+                    </div>
+
+                    <div class="swiper-slide col-md-3 col-sm-2 specialist__card" role="group" aria-label="5 / 8" style="margin-right: 30px;">
+                        <a href="./specialist.html">
+                            <div class="specialist-list__img">
+                                <img src="./img/specialist-list/specialist-img.jpg" alt="">
+                                <div class="specialist-overlay">
+                                    <div class="specialist-overlay__link">Подробнее</div>
+                                </div>
+                            </div>
+                         </a>
+                        <a href="./specialist.html">
+                            <p class="specialist-list__name">Малышенко Наталья Валерьевна</p>
+                        </a>
+                        <p class="specialist-list__spec">
+                            Главный врач, невролог высшей квалификационной категории
+                        </p>
+                    </div>
+        
+                    <div class="swiper-slide col-md-3 col-sm-2 specialist__card" role="group" aria-label="6 / 8" style="margin-right: 30px;">
+                        <a href="./specialist.html">
+                            <div class="specialist-list__img">
+                                <img src="./img/specialist-list/specialist-img-2.jpg" alt="">
+                                <div class="specialist-overlay">
+                                    <div class="specialist-overlay__link">Подробнее</div>
+                                </div>
+                            </div>
+                         </a>
+                        <a href="./specialist.html">
+                            <p class="specialist-list__name">Речкина Татьяна Ивановна</p>
+                        </a>
+                        <p class="specialist-list__spec">
+                            Врач — невролог высшей квалификационной категории
+                        </p>
+                    </div>
+        
+                    <div class="swiper-slide col-md-3 col-sm-2 specialist__card" role="group" aria-label="7 / 8" style="margin-right: 30px;">
+                        <a href="./specialist.html">
+                            <div class="specialist-list__img">
+                                <img src="./img/specialist-list/specialist-img-3.jpg" alt="">
+                                <div class="specialist-overlay">
+                                    <div class="specialist-overlay__link">Подробнее</div>
+                                </div>
+                            </div>
+                         </a>
+                        <a href="./specialist.html">
+                            <p class="specialist-list__name">Петров Юрий Владимирович</p>
+                        </a>
+                        <p class="specialist-list__spec">
+                            Врач — эпилептолог высшей квалификационной категории
+                        </p>
+                    </div>
+
+                    <div class="swiper-slide col-md-3 col-sm-2 specialist__card" role="group" aria-label="8 / 8" style="margin-right: 30px;">
+                        <a href="./specialist.html">
+                            <div class="specialist-list__img">
+                                <img src="./img/specialist-list/specialist-img-4.jpg" alt="">
+                                <div class="specialist-overlay">
+                                    <div class="specialist-overlay__link">Подробнее</div>
+                                </div>
+                            </div>
+                         </a>
+                        <a href="./specialist.html">
+                            <p class="specialist-list__name">Блишунова Ольга Сергеевна</p>
+                        </a>
+                        <p class="specialist-list__spec">
+                            Детский невролог, эпилептолог
+                        </p>
+                    </div>
+
+                    <!-- Добавьте другие слайды как необходимо -->
+        
+                </div>
+        
+                
+                <a href="./specialist-list.html" class="section__link">
+                    Все специалисты
+                </a>
+        
+                
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+        </section>
+
+        <section class="vacancies-hero">
+
+            <div class="container vacancies-hero__container vacancies__container">
+
+                <div class="vacancies__header">
+
+                    <h3 class="section__title">Вакансии</h3>
+
+                    <p>
+                        На этой странице будут публиковаться вакансии, открытые в клинике «Будьте здоровы». Мы всегда рады новым профессионалам в нашем коллективе! Открытые на данный момент вакансии:
+                    </p>
+
+                </div>
+
+                <div class="row vacancies__row vacancies__row-hero">
+
+                    <div class="col-lg-3">
+                        <div class="vacancies__card">
+                            <div class="vacancies__title">
+                                Невролог
+                            </div>
+                            <div class="vacancies__text">
+                                <p>
+                                    Условия:
+                                </p>
+                                <p>
+                                    Сменный график, полная занятость.
+                                </p>
+                            </div>
+                            <div class="vacancies__req">
+                                <p>
+                                    Требования:
+                                </p>
+                                <ul>
+                                    <li>Высшее специальное образование</li>
+                                    <li>Стаж работы не менее 5-ти лет</li>
+                                    <li>Ответственный подход к работе</li>
+                                </ul>
+                            </div>
+                            <a class="vacancies__button" href="">Откликнуться</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="vacancies__card">
+                            <div class="vacancies__title">
+                                Невролог
+                            </div>
+                            <div class="vacancies__text">
+                                <p>
+                                    Условия:
+                                </p>
+                                <p>
+                                    Сменный график, полная занятость.
+                                </p>
+                            </div>
+                            <div class="vacancies__req">
+                                <p>
+                                    Требования:
+                                </p>
+                                <ul>
+                                    <li>Высшее специальное образование</li>
+                                    <li>Стаж работы не менее 5-ти лет</li>
+                                    <li>Ответственный подход к работе</li>
+                                </ul>
+                            </div>
+                            <a class="vacancies__button" href="">Откликнуться</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="vacancies__card">
+                            <div class="vacancies__title">
+                                Невролог
+                            </div>
+                            <div class="vacancies__text">
+                                <p>
+                                    Условия:
+                                </p>
+                                <p>
+                                    Сменный график, полная занятость.
+                                </p>
+                            </div>
+                            <div class="vacancies__req">
+                                <p>
+                                    Требования:
+                                </p>
+                                <ul>
+                                    <li>Высшее специальное образование</li>
+                                    <li>Стаж работы не менее 5-ти лет</li>
+                                    <li>Ответственный подход к работе</li>
+                                </ul>
+                            </div>
+                            <a class="vacancies__button" href="">Откликнуться</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="vacancies__card">
+                            <div class="vacancies__title">
+                                Невролог
+                            </div>
+                            <div class="vacancies__text">
+                                <p>
+                                    Условия:
+                                </p>
+                                <p>
+                                    Сменный график, полная занятость.
+                                </p>
+                            </div>
+                            <div class="vacancies__req">
+                                <p>
+                                    Требования:
+                                </p>
+                                <ul>
+                                    <li>Высшее специальное образование</li>
+                                    <li>Стаж работы не менее 5-ти лет</li>
+                                    <li>Ответственный подход к работе</li>
+                                </ul>
+                            </div>
+                            <a class="vacancies__button" href="">Откликнуться</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="vacancies-hero__slider swiper-container">
+
+                    <!-- Добавьте кнопки навигации -->
+                    <div class="vacancies-slider__buttons">
+                        <div class="vacancies-slider-button-prev swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-4964f102a52c8a563" aria-disabled="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="83" height="48" viewBox="0 0 83 48" fill="none">
+                                <rect x="-0.5" y="0.5" width="82" height="47" rx="23.5" transform="matrix(-1 0 0 1 82 0)" stroke="#232424"></rect>
+                                <path d="M55 23C55.5523 23 56 23.4477 56 24C56 24.5523 55.5523 25 55 25V23ZM27.2929 24.7071C26.9024 24.3166 26.9024 23.6834 27.2929 23.2929L33.6569 16.9289C34.0474 16.5384 34.6805 16.5384 35.0711 16.9289C35.4616 17.3195 35.4616 17.9526 35.0711 18.3431L29.4142 24L35.0711 29.6569C35.4616 30.0474 35.4616 30.6805 35.0711 31.0711C34.6805 31.4616 34.0474 31.4616 33.6569 31.0711L27.2929 24.7071ZM55 25H28V23H55V25Z" fill="#232424"></path>
+                            </svg>
+                        </div>
+                        <div class="vacancies-slider-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-4964f102a52c8a563" aria-disabled="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="83" height="48" viewBox="0 0 83 48" fill="none">
+                                <rect x="0.5" y="0.5" width="82" height="47" rx="23.5" stroke="#232424"></rect>
+                                <path d="M28 23C27.4477 23 27 23.4477 27 24C27 24.5523 27.4477 25 28 25V23ZM55.7071 24.7071C56.0976 24.3166 56.0976 23.6834 55.7071 23.2929L49.3431 16.9289C48.9526 16.5384 48.3195 16.5384 47.9289 16.9289C47.5384 17.3195 47.5384 17.9526 47.9289 18.3431L53.5858 24L47.9289 29.6569C47.5384 30.0474 47.5384 30.6805 47.9289 31.0711C48.3195 31.4616 48.9526 31.4616 49.3431 31.0711L55.7071 24.7071ZM28 25H55V23H28V25Z" fill="#232424"></path>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="swiper-wrapper vacancies-slider__wrapper">
+
+                        <div class="col-lg-3 swiper-slide">
+                            <div class="vacancies__card">
+                                <div class="vacancies__title">
+                                    Невролог
+                                </div>
+                                <div class="vacancies__text">
+                                    <p>
+                                        Условия:
+                                    </p>
+                                    <p>
+                                        Сменный график, полная занятость.
+                                    </p>
+                                </div>
+                                <div class="vacancies__req">
+                                    <p>
+                                        Требования:
+                                    </p>
+                                    <ul>
+                                        <li>Высшее специальное образование</li>
+                                        <li>Стаж работы не менее 5-ти лет</li>
+                                        <li>Ответственный подход к работе</li>
+                                    </ul>
+                                </div>
+                                <a class="vacancies__button" href="">Откликнуться</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 swiper-slide">
+                            <div class="vacancies__card">
+                                <div class="vacancies__title">
+                                    Невролог
+                                </div>
+                                <div class="vacancies__text">
+                                    <p>
+                                        Условия:
+                                    </p>
+                                    <p>
+                                        Сменный график, полная занятость.
+                                    </p>
+                                </div>
+                                <div class="vacancies__req">
+                                    <p>
+                                        Требования:
+                                    </p>
+                                    <ul>
+                                        <li>Высшее специальное образование</li>
+                                        <li>Стаж работы не менее 5-ти лет</li>
+                                        <li>Ответственный подход к работе</li>
+                                    </ul>
+                                </div>
+                                <a class="vacancies__button" href="">Откликнуться</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 swiper-slide">
+                            <div class="vacancies__card">
+                                <div class="vacancies__title">
+                                    Невролог
+                                </div>
+                                <div class="vacancies__text">
+                                    <p>
+                                        Условия:
+                                    </p>
+                                    <p>
+                                        Сменный график, полная занятость.
+                                    </p>
+                                </div>
+                                <div class="vacancies__req">
+                                    <p>
+                                        Требования:
+                                    </p>
+                                    <ul>
+                                        <li>Высшее специальное образование</li>
+                                        <li>Стаж работы не менее 5-ти лет</li>
+                                        <li>Ответственный подход к работе</li>
+                                    </ul>
+                                </div>
+                                <a class="vacancies__button" href="">Откликнуться</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 swiper-slide">
+                            <div class="vacancies__card">
+                                <div class="vacancies__title">
+                                    Невролог
+                                </div>
+                                <div class="vacancies__text">
+                                    <p>
+                                        Условия:
+                                    </p>
+                                    <p>
+                                        Сменный график, полная занятость.
+                                    </p>
+                                </div>
+                                <div class="vacancies__req">
+                                    <p>
+                                        Требования:
+                                    </p>
+                                    <ul>
+                                        <li>Высшее специальное образование</li>
+                                        <li>Стаж работы не менее 5-ти лет</li>
+                                        <li>Ответственный подход к работе</li>
+                                    </ul>
+                                </div>
+                                <a class="vacancies__button" href="">Откликнуться</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <a href="./vacancies.html" class="section__link visible">
+                    Все вакансии
+                </a>
+
+            </div>
+
+        </section>
+
+        <section class="docs-certs docs-certs__hero">
+
+            <div class="container docs-certs__container">
+
+                <h3 class="section__title">Лицензии и сертификаты</h3>
+
+                <div class="docs-certs__wrapper">
+                    <div class="docs-certs__img">
+                        <a href="./img/docs/cert-1.jpg" data-fancybox="docs" data-caption="Certificate 1">
+                            <img src="./img/docs/cert-1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="docs-certs__img">
+                        <a href="./img/docs/cert-2.jpg" data-fancybox="docs" data-caption="Certificate 2">
+                            <img src="./img/docs/cert-2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="docs-certs__img">
+                        <a href="./img/docs/cert-3.jpg" data-fancybox="docs" data-caption="Certificate 3">
+                            <img src="./img/docs/cert-3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="docs-certs__img">
+                        <a href="./img/docs/cert-4.jpg" data-fancybox="docs" data-caption="Certificate 4">
+                            <img src="./img/docs/cert-4.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                
+
+                <a href="./specialist-list.html" class="section__link visible">
+                    Нормативные документы
+                </a>
+
+            </div>
+
+        </section>
+
+        <section class="special-offer__slider special-offer__slider-hero">
+
+            <div class="container special-offer__container swiper-container special-offer__slider">
+
+                <h3 class="section__title">Скидки и акции</h3>
+
+                <!-- Добавьте кнопки навигации -->
+                <div class="special-offer__buttons">
+                    <div class="special-offer-slider-button-prev swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-4964f102a52c8a563" aria-disabled="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="83" height="48" viewBox="0 0 83 48" fill="none">
+                            <rect x="-0.5" y="0.5" width="82" height="47" rx="23.5" transform="matrix(-1 0 0 1 82 0)" stroke="#232424"></rect>
+                            <path d="M55 23C55.5523 23 56 23.4477 56 24C56 24.5523 55.5523 25 55 25V23ZM27.2929 24.7071C26.9024 24.3166 26.9024 23.6834 27.2929 23.2929L33.6569 16.9289C34.0474 16.5384 34.6805 16.5384 35.0711 16.9289C35.4616 17.3195 35.4616 17.9526 35.0711 18.3431L29.4142 24L35.0711 29.6569C35.4616 30.0474 35.4616 30.6805 35.0711 31.0711C34.6805 31.4616 34.0474 31.4616 33.6569 31.0711L27.2929 24.7071ZM55 25H28V23H55V25Z" fill="#232424"></path>
+                        </svg>
+                    </div>
+                    <div class="special-offer-slider-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-4964f102a52c8a563" aria-disabled="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="83" height="48" viewBox="0 0 83 48" fill="none">
+                            <rect x="0.5" y="0.5" width="82" height="47" rx="23.5" stroke="#232424"></rect>
+                            <path d="M28 23C27.4477 23 27 23.4477 27 24C27 24.5523 27.4477 25 28 25V23ZM55.7071 24.7071C56.0976 24.3166 56.0976 23.6834 55.7071 23.2929L49.3431 16.9289C48.9526 16.5384 48.3195 16.5384 47.9289 16.9289C47.5384 17.3195 47.5384 17.9526 47.9289 18.3431L53.5858 24L47.9289 29.6569C47.5384 30.0474 47.5384 30.6805 47.9289 31.0711C48.3195 31.4616 48.9526 31.4616 49.3431 31.0711L55.7071 24.7071ZM28 25H55V23H28V25Z" fill="#232424"></path>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="swiper-wrapper special-offer__row special-offer-swiper__wrapper">
+
+                    <div class="col-lg-4 special-offer__card swiper-slide">
+                        <div class="special-offer__img">
+                            <img src="./img/special-offer/special-offer.jpg" alt="">
+                        </div>
+                        <p class="special-offer__title">
+                            Дарим скидку 30% при записи через сайт
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 special-offer__card swiper-slide">
+                        <div class="special-offer__img">
+                            <img src="./img/special-offer/special-offer.jpg" alt="">
+                        </div>
+                        <p class="special-offer__title">
+                            Дарим скидку 30% при записи через сайт
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 special-offer__card swiper-slide">
+                        <div class="special-offer__img">
+                            <img src="./img/special-offer/special-offer.jpg" alt="">
+                        </div>
+                        <p class="special-offer__title">
+                            Дарим скидку 30% при записи через сайт
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 special-offer__card swiper-slide">
+                        <div class="special-offer__img">
+                            <img src="./img/special-offer/special-offer.jpg" alt="">
+                        </div>
+                        <p class="special-offer__title">
+                            Дарим скидку 30% при записи через сайт
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 special-offer__card swiper-slide">
+                        <div class="special-offer__img">
+                            <img src="./img/special-offer/special-offer.jpg" alt="">
+                        </div>
+                        <p class="special-offer__title">
+                            Дарим скидку 30% при записи через сайт
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 special-offer__card swiper-slide">
+                        <div class="special-offer__img">
+                            <img src="./img/special-offer/special-offer.jpg" alt="">
+                        </div>
+                        <p class="special-offer__title">
+                            Дарим скидку 30% при записи через сайт
+                        </p>
+                    </div>
+
+                </div>
+
+                <a href="./special-offer.html" class="section__link">Посмотреть все</a>
+
+            </div>
+
+        </section>
+
+        <section class="location">
+            <img src="./img/hero/hero-bg-element-bottom.png" alt="">
+            <div class="container location__container">
+
+                <h3 class="section__title">Как нас найти?</h3>
+
+                <div class="location__wrapper">
+
+                    <div class="location__img">
+                        <img src="./img/hero/location.jpg" alt="">
+                        <img src="./img/hero/location-mobile.jpg" alt="">
+                    </div>
+
+                    <div class="location__badge">
+
+                        <div class="location__block">
+                            <p>
+                                г. Кемерово, ул. Гвардейская, д.<br>67Ост. «Знаменский Собор»
+                            </p>
+                            <p>
+                                Будни — 8:30−20:00<br>
+                                Суббота — 8:30−16:30<br>
+                                Воскресенье — Выходной<br>
+                            </p>
+                            <p class="location__tel">
+                                <a href="tel:+73842741774">+7 (3842) 74 17 74</a><br>
+                                <a href="tel:+73842901251">+7 (3842) 90 12 51</a><br>
+                                <a href="tel:+79133232020">+7 913 323 20 20</a><br>
+                            </p>
+                            <p>
+                                <a href="mailto:reacentr421@mail.ru">reacentr421@mail.ru</a>
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="route">
+
+            <div class="container route__container">
+
+                <h3 class="section__title">Схема проезда до Медицинского центра Будьте Здоровы</h3>
+
+                <div class="route__img col-lg-8">
+
+                    <img src="./img/hero/route.jpg" alt="">
+                    <img src="./img/hero/route-mobile.jpg" alt="">
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="container footer__container">
+
+            <div class="footer__wrapper">
+
+                <div class="footer__form">
+
+                    <p class="section__title">Запишитесь на прием прямо сейчас</p>
+
+                    <div class="form-body">
+                        <div class="row form__row">
+                            <div class="col-md-5 form-tel">
+                              <input type="text" class="form-control" placeholder="Номер телефона">
+                            </div>
+                            <div class="col-md-6 form-fio">
+                              <input type="tel" class="form-control" placeholder="ФИО">
+                            </div>
+                          </div>
+                            <div class="form__input">
+                                <input type="text" class="form-control" placeholder="Причина обращения">
+                            </div>
+                      
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input">
+                                <label class="form-check-label">Согласен с условиями обработки персональных данных</label>
+                            </div>
+                            <div class="col-md-6 form-btn">
+                                <button type="button" class="btn cta__button-primary">Записаться</button>
+                            </div>
+                            
+                    </div>
+
+                </div>
+
+                <div class="footer__info">
+
+                    <div class="footer__nav">
+                        <ul>
+                            <li>
+                                <a href="">О нас</a>
+                            </li>
+                            <li>
+                                <a href="">Услуги</a>
+                            </li>
+                            <li>
+                                <a href="">Специалисты</a>
+                            </li>
+                            <li>
+                                <a href="">Отзывы</a>
+                            </li>
+                            <li>
+                                <a href="">Вакансии</a>
+                            </li>
+                            <li>
+                                <a href="">Новости</a>
+                            </li>
+                            <li>
+                                <a href="">Контакты</a>
+                            </li>
+                            <li>
+                                <a href="">Акции</a>
+                            </li>
+                            <li>
+                                <a href="">Нормативные документы</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__tel">
+                        <a href="">+7 (3842) 74 17 74</a>
+                    </div>
+
+                    <div class="footer__socials">
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47" fill="none">
+                                <rect width="47" height="47" rx="23.5" fill="#232424"/>
+                                <path d="M24.6546 31.7254C15.8227 31.7254 10.7851 25.5505 10.5752 15.2754H14.9992C15.1446 22.817 18.4061 26.0115 20.9895 26.6702V15.2754H25.1552V21.7796C27.7063 21.4997 30.3865 18.5358 31.2907 15.2754H35.4564C35.1157 16.9663 34.4365 18.5673 33.4614 19.9783C32.4862 21.3893 31.2361 22.5799 29.7891 23.4757C31.4043 24.2942 32.8309 25.4527 33.9747 26.8747C35.1186 28.2967 35.9538 29.95 36.4252 31.7254H31.8397C31.4165 30.1833 30.5565 28.8029 29.3674 27.7572C28.1783 26.7115 26.713 26.0469 25.1552 25.8469V31.7254H24.6546Z" fill="#FCFCFC"/>
+                            </svg>
+                        </a>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="47" viewBox="0 0 48 47" fill="none">
+                                <rect width="48" height="47" rx="23.5" fill="#232424"/>
+                                <path d="M31.4853 26.7818C32.1149 26.1652 32.2049 25.2844 31.6652 24.4036C31.2154 23.699 30.4058 23.3467 29.5063 23.5228C29.1465 23.6109 28.7867 23.7871 28.4269 24.0513C25.6383 25.901 21.8603 25.8129 19.0717 23.9632C18.8918 23.8752 18.7119 23.7871 18.532 23.699C17.5425 23.2586 16.553 23.4348 16.0133 24.3156C15.3837 25.1964 15.4736 26.1652 16.2832 26.9579C16.4631 27.1341 16.643 27.2222 16.7329 27.3983L16.8229 27.4864C18.0822 28.4553 19.6115 29.0718 21.5904 29.3361L20.421 30.4811C19.4315 31.45 18.3521 32.5069 17.3626 33.4758C17.0928 33.74 16.7329 34.1804 16.7329 34.797C16.7329 35.5897 17.1827 36.3824 17.9923 36.7347C18.2622 36.9109 18.532 36.9109 18.8019 36.9109C19.2516 36.9109 19.7914 36.7347 20.1512 36.2943C21.5005 34.9731 22.5799 33.9162 23.6593 32.8592C23.7493 32.7712 23.7493 32.7712 23.7493 32.7712C23.7493 32.7712 23.8393 32.7712 23.8393 32.8592C24.5589 33.652 25.3685 34.3566 26.0881 35.1493C26.4479 35.5016 26.8077 35.8539 27.1675 36.2063C27.6173 36.6466 27.9771 36.8228 28.5168 36.8228C29.3264 36.9109 30.2259 36.3824 30.5857 35.5897C30.9456 34.8851 30.7656 34.0043 30.136 33.4758C29.2364 32.595 28.3369 31.6261 27.3474 30.7453L25.8182 29.248C26.6278 29.1599 27.5273 28.9838 28.3369 28.6314C29.6862 28.191 30.6757 27.5745 31.4853 26.7818Z" fill="#FCFCFC"/>
+                                <path d="M23.7493 24.3156C27.6173 24.3156 30.7656 21.3208 30.7656 17.5334C30.7656 15.6838 30.046 13.9222 28.6967 12.601C27.3474 11.2798 25.6383 10.5752 23.8392 10.5752C19.9713 10.5752 16.9129 13.658 16.8229 17.3573C16.8229 19.207 17.5425 20.8805 18.8918 22.2016C20.1512 23.6109 21.8603 24.3156 23.7493 24.3156ZM21.7703 15.5076C22.31 14.9792 23.0297 14.7149 23.7493 14.7149C25.3684 14.7149 26.5378 15.948 26.5378 17.4454C26.5378 19.0308 25.2785 20.1758 23.7493 20.1758C22.1301 20.1758 20.9607 18.9427 20.9607 17.4454C20.9607 16.7407 21.2306 16.0361 21.7703 15.5076Z" fill="#FCFCFC"/>
+                                <path d="M31.4853 26.7818C32.1149 26.1652 32.2049 25.2844 31.6652 24.4036C31.2154 23.699 30.4058 23.3467 29.5063 23.5228C29.1465 23.6109 28.7867 23.7871 28.4269 24.0513C25.6383 25.901 21.8603 25.8129 19.0717 23.9632C18.8918 23.8752 18.7119 23.7871 18.532 23.699C17.5425 23.2586 16.553 23.4348 16.0133 24.3156C15.3837 25.1964 15.4736 26.1652 16.2832 26.9579C16.4631 27.1341 16.643 27.2222 16.7329 27.3983L16.8229 27.4864C18.0822 28.4553 19.6115 29.0718 21.5904 29.3361L20.421 30.4811C19.4315 31.45 18.3521 32.5069 17.3626 33.4758C17.0928 33.74 16.7329 34.1804 16.7329 34.797C16.7329 35.5897 17.1827 36.3824 17.9923 36.7347C18.2622 36.9109 18.532 36.9109 18.8019 36.9109C19.2516 36.9109 19.7914 36.7347 20.1512 36.2943C21.5005 34.9731 22.5799 33.9162 23.6593 32.8592C23.7493 32.7712 23.7493 32.7712 23.7493 32.7712C23.7493 32.7712 23.8393 32.7712 23.8393 32.8592C24.5589 33.652 25.3685 34.3566 26.0881 35.1493C26.4479 35.5016 26.8077 35.8539 27.1675 36.2063C27.6173 36.6466 27.9771 36.8228 28.5168 36.8228C29.3264 36.9109 30.2259 36.3824 30.5857 35.5897C30.9456 34.8851 30.7656 34.0043 30.136 33.4758C29.2364 32.595 28.3369 31.6261 27.3474 30.7453L25.8182 29.248C26.6278 29.1599 27.5273 28.9838 28.3369 28.6314C29.6862 28.191 30.6757 27.5745 31.4853 26.7818Z" fill="#FCFCFC"/>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="footer__tip">
+                        <p>
+                            <a href="./docs.html">
+                                Лицензия на осуществление медицинской деятельности: Регистрационный номер Л041-01161-42/00341577от 25.07.2023
+                            </a>
+                        </p>
+                        <p>
+                            © ООО МЦ «БУДЬТЕ ЗДОРОВЫ»., 2012 - 2023 Все права защищены
+                        </p>
+                        <p>
+                            <a href="./docs.html">
+                                Политика конфиденциальности
+                            </a>
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="footer__warn">
+                ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ, НЕОБХОДИМА КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА
+            </div>
+
+        </div>
+
+    </footer>
+
+
+  <!-- Заявка на звонок -->
+  <div class="modal fade" id="callModal" tabindex="-1" role="dialog" aria-labelledby="callModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content form-modal">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                <rect width="47.207" height="3.14713" rx="1.57357" transform="matrix(0.709067 0.705141 -0.709067 0.705141 2.52734 0)" fill="#FCFCFC"/>
+                <rect width="47.207" height="3.14713" rx="1.57357" transform="matrix(-0.709067 0.705141 0.709067 0.705141 33.4727 0.49231)" fill="#FCFCFC"/>
+              </svg>
+          </span>
+        </button>
+        <p class="section__title white">Запишитесь на прием прямо сейчас</p>
+        <div class="form-body">
+          <div class="row form__row">
+            <div class="col-md-5 form-tel">
+              <input type="text" class="form-control" placeholder="Номер телефона">
+            </div>
+            <div class="col-md-6 form-fio">
+              <input type="text" class="form-control" placeholder="ФИО">
+            </div>
+          </div>
+          <div class="form__input">
+            <input type="text" class="form-control" placeholder="Причина обращения">
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input">
+            <label class="form-check-label white">Согласен с условиями обработки персональных данных</label>
+          </div>
+          <div class="form-btn">
+            <button type="button" class="btn cta__button-primary white" data-dismiss="modal">Записаться</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Отклик на вакансию -->
+  <div class="modal fade" id="jobApplicationModal" tabindex="-1" role="dialog" aria-labelledby="jobApplicationModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content form-modal">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                    <rect width="47.207" height="3.14713" rx="1.57357" transform="matrix(0.709067 0.705141 -0.709067 0.705141 2.52734 0)" fill="#FCFCFC"/>
+                    <rect width="47.207" height="3.14713" rx="1.57357" transform="matrix(-0.709067 0.705141 0.709067 0.705141 33.4727 0.49231)" fill="#FCFCFC"/>
+                  </svg>
+              </span>
+            </button>
+            <p class="section__title white">Запишитесь на прием прямо сейчас</p>
+            <div class="form-body">
+              <div class="row form__row">
+                <div class="col-md-5 form-tel">
+                  <input type="text" class="form-control" placeholder="Номер телефона">
+                </div>
+                <div class="col-md-6 form-fio">
+                  <input type="text" class="form-control" placeholder="ФИО">
+                </div>
+              </div>
+              <div class="form__input">
+                <input type="text" class="form-control" placeholder="Причина обращения">
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label white">Согласен с условиями обработки персональных данных</label>
+              </div>
+              <div class="form__input">
+                <select class="form-control">
+                  <option value="" disabled selected>Выберите вакансию</option>
+                  <option value="job1">Вакансия 1</option>
+                  <option value="job2">Вакансия 2</option>
+                  <!-- Добавьте другие вакансии по мере необходимости -->
+                </select>
+              </div>
+              <div class="form-btn">
+                <button type="button" class="btn cta__button-primary white" data-dismiss="modal">Записаться</button>
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+
+
+  
+<script src="./js/fancybox.umd.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js//swiper-bundle.min.js"></script>    
+<script src="./js/index.js"></script>
+</body>
+</html>
